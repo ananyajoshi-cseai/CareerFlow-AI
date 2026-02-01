@@ -27,16 +27,21 @@ if 'company_name' not in st.session_state: st.session_state.company_name = ""
 if 'api_key' not in st.session_state: st.session_state.api_key = ""
 if 'cover_letter' not in st.session_state: st.session_state.cover_letter = ""
 
-# --- CUSTOM CSS ---
+# --- FORCE DARK THEME CSS ---
 st.markdown("""
 <style>
-    .stApp { background-color: #0E1117; font-family: 'Poppins', sans-serif; }
-    [data-testid="stHeader"] { background-color: transparent !important; z-index: 100; }
-    h1, h2, h3, h4, h5, h6, p, span, div, label { color: #FAFAFA !important; }
-    .stTextInput input, .stTextArea textarea { background-color: #1F2937 !important; color: white !important; border: 1px solid #374151 !important; }
-    .glass-card { background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 15px; padding: 25px; margin-bottom: 25px; }
-    div.stButton > button { background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%) !important; color: black !important; font-weight: bold !important; border: none; border-radius: 50px; padding: 10px 25px; }
-    div.stButton > button:hover { transform: scale(1.05); }
+    /* Force the main background and sidebar to dark */
+    .stApp, [data-testid="stSidebar"] {
+        background-color: #0E1117 !important;
+    }
+    /* Ensure all text is light */
+    h1, h2, h3, h4, h5, h6, p, label, .stMarkdown {
+        color: #FAFAFA !important;
+    }
+    /* Fix the sidebar menu text color */
+    [data-testid="stSidebarNav"] span {
+        color: white !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -460,4 +465,5 @@ elif selected == "Tools":
                 if st.session_state.missing: st.markdown(ai_generate_questions(st.session_state.missing, st.session_state.role_title))
 
                 else: st.info("No missing skills to test!")
+
 

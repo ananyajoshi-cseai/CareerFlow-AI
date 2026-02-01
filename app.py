@@ -164,19 +164,17 @@ def save_to_db(role, company, skills_dict, score):
     conn.commit()
     conn.close()
 
-# --- SIDEBAR ---
+# --- SIDEBAR (Updated for Deployment) ---
 with st.sidebar:
     st.markdown("# 🧠 CareerFlow AI")
-    st.session_state.api_key = st.text_input("Gemini API Key", type="password")
-    if st.session_state.api_key: st.success("✅ AI Connected")
     
-    selected = option_menu(
-        menu_title=None,
-        options=["Scanner", "Battle Mode", "Analytics", "Tools"],
-        icons=["search", "trophy", "bar-chart-line", "tools"], 
-        default_index=0,
-        styles={"nav-link-selected": {"background-color": "#00C9FF", "color": "black"}}
-    )
+    # Check if key is in Secrets first, otherwise use manual input
+    if "GEMINI_API_KEY" in st.secrets:
+        st.session_state.api_key = st.secrets["GEMINI_API_KEY"]
+        st.success("✅ AI Connected via Secrets")
+    else:
+        st.session_state.api_key = st.text_input("Gemini API Key", type="password")
+        if st.session_state.api_key: st.success("✅ AI Connected")
 
 # === PAGE 1: SCANNER ===
 if selected == "Scanner":
@@ -450,4 +448,5 @@ elif selected == "Tools":
         with t3:
             if st.button("Generate Questions"):
                 if st.session_state.missing: st.markdown(ai_generate_questions(st.session_state.missing, st.session_state.role_title))
+
                 else: st.info("No missing skills to test!")

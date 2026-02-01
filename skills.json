@@ -1,0 +1,7 @@
+{
+  "Languages": ["python", "java", "cpp", "c++", "javascript", "typescript", "ruby", "swift", "go", "rust", "php"],
+  "Data Science": ["sql", "pandas", "numpy", "scikit-learn", "sklearn", "tensorflow", "pytorch", "keras", "matplotlib", "seaborn", "tableau", "power bi"],
+  "Web Development": ["html", "css", "react", "reactjs", "angular", "vue", "node", "node.js", "django", "flask", "fastapi", "spring boot"],
+  "Cloud & DevOps": ["aws", "azure", "google cloud", "gcp", "docker", "kubernetes", "jenkins", "circleci", "terraform", "linux", "git", "github", "gitlab"],
+  "Soft Skills": ["agile", "scrum", "communication", "leadership", "problem solving", "machine learning", "deep learning", "nlp"]
+}

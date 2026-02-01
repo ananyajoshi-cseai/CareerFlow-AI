@@ -1,6 +1,10 @@
+# 🧠 CareerFlow AI
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://careerflow-ai.streamlit.app/)
+
 ## 🚀 About CareerFlow AI
 CareerFlow AI is an intelligent career assistant designed to bridge the gap between job seekers and their target roles. Built during my B.Tech in CS & AI, this tool leverages Large Language Models (LLMs) to provide data-driven insights for application optimization.
 
+> **An AI-powered career toolkit built with Google Gemini to optimize job applications.**
 ### ✨ Key Features
 * **🧠 AI Skill-Gap Analysis:** Uses Google Gemini to extract and compare skills from resumes and JDs.
 * **🕸️ Interactive Visuals:** Real-time Radar (Spyder) charts for skill distribution and match donuts.

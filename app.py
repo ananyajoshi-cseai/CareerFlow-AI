@@ -27,38 +27,46 @@ if 'company_name' not in st.session_state: st.session_state.company_name = ""
 if 'api_key' not in st.session_state: st.session_state.api_key = ""
 if 'cover_letter' not in st.session_state: st.session_state.cover_letter = ""
 
-# --- HIGH VISIBILITY DARK THEME CSS ---
+# --- PERFECT CONTRAST DARK THEME CSS ---
 st.markdown("""
 <style>
-    /* 1. Force Main & Sidebar Background */
+    /* 1. Main Backgrounds */
     .stApp, [data-testid="stSidebar"], [data-testid="stHeader"] {
         background-color: #0E1117 !important;
     }
 
-    /* 2. Force ALL text to be light grey/white */
+    /* 2. Force Labels and Main Text to White */
     h1, h2, h3, h4, h5, h6, p, label, .stMarkdown, [data-testid="stWidgetLabel"] p {
         color: #FAFAFA !important;
     }
 
-    /* 3. FIX INVISIBLE BUTTON TEXT */
+    /* 3. FIX: Make Resume File Name visible (the text next to the icon) */
+    [data-testid="stFileUploaderFileName"] {
+        color: #FAFAFA !important;
+    }
+
+    /* 4. FIX: Make Top Header (Star, Edit icon) visible */
+    [data-testid="stHeader"] {
+        color: #FAFAFA !important;
+    }
+    header svg {
+        fill: #FAFAFA !important;
+    }
+
+    /* 5. Buttons: Neon Background with Black Text for clarity */
     div.stButton > button {
         background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%) !important;
-        color: #000000 !important; /* Force text to be BLACK for high contrast on neon */
+        color: #000000 !important;
         font-weight: bold !important;
         border: none !important;
     }
     
-    /* 4. FIX SIDEBAR MENU COLORS */
+    /* 6. Fix Sidebar text invisibility */
     [data-testid="stSidebarNav"] span {
         color: #FAFAFA !important;
     }
     
-    /* 5. FIX TABS (Scanner, Battle Mode etc. icons) */
-    .stTabs [data-baseweb="tab"] p {
-        color: #FAFAFA !important;
-    }
-    
-    /* 6. INPUT BOXES CONTRAST */
+    /* 7. Input boxes: Dark background with White text */
     .stTextInput input, .stTextArea textarea {
         background-color: #1F2937 !important;
         color: #FFFFFF !important;
@@ -486,6 +494,7 @@ elif selected == "Tools":
                 if st.session_state.missing: st.markdown(ai_generate_questions(st.session_state.missing, st.session_state.role_title))
 
                 else: st.info("No missing skills to test!")
+
 
 
 

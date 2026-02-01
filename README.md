@@ -15,3 +15,12 @@ CareerFlow AI is an intelligent career assistant designed to bridge the gap betw
 * **Data Visualization:** Plotly
 * **Database:** SQLite
 * **Document Processing:** pdfplumber, FPDF
+
+## 🚀 Quick Start
+1. Clone the repository: `git clone https://github.com/ananyajoshi-cseai/CareerFlow-AI.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Add your `GEMINI_API_KEY` to `.streamlit/secrets.toml`.
+4. Run the app: `streamlit run app.py`
+
+---
+*Developed by **Ananya Joshi** | B.Tech CSE-AI @ IGDTUW*

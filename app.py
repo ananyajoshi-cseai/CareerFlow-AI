@@ -27,24 +27,45 @@ if 'company_name' not in st.session_state: st.session_state.company_name = ""
 if 'api_key' not in st.session_state: st.session_state.api_key = ""
 if 'cover_letter' not in st.session_state: st.session_state.cover_letter = ""
 
-# --- FORCE DARK THEME CSS ---
+# --- HIGH VISIBILITY DARK THEME CSS ---
 st.markdown("""
 <style>
-    /* Force the main background and sidebar to dark */
-    .stApp, [data-testid="stSidebar"] {
+    /* 1. Force Main & Sidebar Background */
+    .stApp, [data-testid="stSidebar"], [data-testid="stHeader"] {
         background-color: #0E1117 !important;
     }
-    /* Ensure all text is light */
-    h1, h2, h3, h4, h5, h6, p, label, .stMarkdown {
+
+    /* 2. Force ALL text to be light grey/white */
+    h1, h2, h3, h4, h5, h6, p, label, .stMarkdown, [data-testid="stWidgetLabel"] p {
         color: #FAFAFA !important;
     }
-    /* Fix the sidebar menu text color */
+
+    /* 3. FIX INVISIBLE BUTTON TEXT */
+    div.stButton > button {
+        background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%) !important;
+        color: #000000 !important; /* Force text to be BLACK for high contrast on neon */
+        font-weight: bold !important;
+        border: none !important;
+    }
+    
+    /* 4. FIX SIDEBAR MENU COLORS */
     [data-testid="stSidebarNav"] span {
-        color: white !important;
+        color: #FAFAFA !important;
+    }
+    
+    /* 5. FIX TABS (Scanner, Battle Mode etc. icons) */
+    .stTabs [data-baseweb="tab"] p {
+        color: #FAFAFA !important;
+    }
+    
+    /* 6. INPUT BOXES CONTRAST */
+    .stTextInput input, .stTextArea textarea {
+        background-color: #1F2937 !important;
+        color: #FFFFFF !important;
+        border: 1px solid #374151 !important;
     }
 </style>
 """, unsafe_allow_html=True)
-
 # --- AI ENGINE ---
 def get_gemini_response(prompt):
     if not st.session_state.api_key: return None
@@ -465,5 +486,6 @@ elif selected == "Tools":
                 if st.session_state.missing: st.markdown(ai_generate_questions(st.session_state.missing, st.session_state.role_title))
 
                 else: st.info("No missing skills to test!")
+
 
 

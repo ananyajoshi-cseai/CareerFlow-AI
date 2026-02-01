@@ -168,16 +168,26 @@ def save_to_db(role, company, skills_dict, score):
 with st.sidebar:
     st.markdown("# 🧠 CareerFlow AI")
     
-    # Check if key is in Secrets first, otherwise use manual input
+    # Check if key is in Secrets first
     if "GEMINI_API_KEY" in st.secrets:
         st.session_state.api_key = st.secrets["GEMINI_API_KEY"]
         st.success("✅ AI Connected via Secrets")
     else:
         st.session_state.api_key = st.text_input("Gemini API Key", type="password")
         if st.session_state.api_key: st.success("✅ AI Connected")
+    
+    # THIS LINE MUST BE HERE - BEFORE the if/elif blocks
+    selected = option_menu(
+        menu_title=None,
+        options=["Scanner", "Battle Mode", "Analytics", "Tools"],
+        icons=["search", "trophy", "bar-chart-line", "tools"], 
+        default_index=0,
+        styles={"nav-link-selected": {"background-color": "#00C9FF", "color": "black"}}
+    )
 
 # === PAGE 1: SCANNER ===
 if selected == "Scanner":
+    # ... rest of your scanner code ...
     col1, col2 = st.columns([1.5, 1])
     with col1: st.markdown('<h1 style="color:#00C9FF;">AI Skill Gap Analyzer</h1>', unsafe_allow_html=True)
     with col2: 
@@ -450,3 +460,4 @@ elif selected == "Tools":
                 if st.session_state.missing: st.markdown(ai_generate_questions(st.session_state.missing, st.session_state.role_title))
 
                 else: st.info("No missing skills to test!")
+

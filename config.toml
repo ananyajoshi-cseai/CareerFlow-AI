@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#00FF94"     # Neon Green (Action Buttons)
+backgroundColor = "#0E1117"  # Deepest Black-Blue (App Background)
+secondaryBackgroundColor = "#262730" # Lighter Grey (Sidebar)
+textColor = "#FAFAFA"        # Pure White (Text)
+font = "sans serif"

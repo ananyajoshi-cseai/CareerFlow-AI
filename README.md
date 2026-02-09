@@ -18,7 +18,7 @@
 * **⚔️ Job Battle Arena**: A data-driven side-by-side comparison tool that scores job offers based on long-term growth and relevance.
 * **📊 Visual Analytics**: High-impact **Radar (Spyder) charts** and match donuts for instant visual assessment of your professional profile.
 * **📄 Automated PDF Generation**: Instantly creates tailored, professional cover letters ready for export based on your extracted skills.
-* **🛡️ Secure Key Management**: Built with enterprise standards using **Streamlit Secrets** to protect sensitive API credentials.
+* **🛡️ Secure Key Management**: Built with enterprise standards using Streamlit Secrets to protect sensitive API credentials.
 
 ---
 

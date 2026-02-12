@@ -84,6 +84,12 @@ Contributions are what make the open-source community such an amazing place to l
 
 Distributed under the MIT License. See `LICENCE` for more information.
 
+## 👤 Author
+
+**Ananya Joshi**
+* B.Tech in Computer Science and Artificial Intelligence (CSE AI)
+* Indira Gandhi Delhi Technical University for Women (IGDTUW)
+
 ---
 
 <p align="center">

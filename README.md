@@ -93,8 +93,6 @@ Distributed under the MIT License. See `LICENCE` for more information.
 ---
 
 <p align="center">
-  <b>Developed with ❤️ by Ananya Joshi</b><br>
-  <i>B.Tech Computer Science & AI @ IGDTUW</i><br>
   <a href="https://www.linkedin.com/in/ananya-joshi-cseai/">LinkedIn</a> • 
   <a href="https://careerflow-ai.streamlit.app/">Live Demo</a>
 </p>

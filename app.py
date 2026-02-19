@@ -74,7 +74,7 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
-# --- AI ENGINE ---
+# --- THE AI ENGINE ---
 def get_gemini_response(prompt):
     if not st.session_state.api_key: return None
     genai.configure(api_key=st.session_state.api_key.strip())
@@ -494,6 +494,7 @@ elif selected == "Tools":
                 if st.session_state.missing: st.markdown(ai_generate_questions(st.session_state.missing, st.session_state.role_title))
 
                 else: st.info("No missing skills to test!")
+
 
 
 

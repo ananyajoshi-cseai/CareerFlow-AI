@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 from streamlit_lottie import st_lottie
 from streamlit_option_menu import option_menu
 
-# --- PAGE CONFIG ---
+# --- PAGE CONFIGS ---
 st.set_page_config(page_title="CareerFlow AI", layout="wide", page_icon="🧠")
 
 # --- STATE INITIALIZATION ---
@@ -27,7 +27,7 @@ if 'company_name' not in st.session_state: st.session_state.company_name = ""
 if 'api_key' not in st.session_state: st.session_state.api_key = ""
 if 'cover_letter' not in st.session_state: st.session_state.cover_letter = ""
 
-# --- PERFECT CONTRAST DARK THEME CSS ---
+# --- CONTRAST DARK THEME CSS ---
 st.markdown("""
 <style>
     /* 1. Main Backgrounds */
@@ -494,6 +494,7 @@ elif selected == "Tools":
                 if st.session_state.missing: st.markdown(ai_generate_questions(st.session_state.missing, st.session_state.role_title))
 
                 else: st.info("No missing skills to test!")
+
 
 
 

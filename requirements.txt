@@ -1,5 +1,5 @@
 streamlit
-google-generativeai
+google-generative-ai
 pdfplumber
 pandas
 plotly

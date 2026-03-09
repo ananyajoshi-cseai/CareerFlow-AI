@@ -49,7 +49,7 @@
     pip install -r requirements.txt
     ```
 3.  **Environment Setup**:
-    Add your API key to `.streamlit/secrets.toml` or directly into the Streamlit Community Cloud Secrets dashboard:
+    Add your personal API key to `.streamlit/secrets.toml` or directly into the Streamlit Community Cloud Secrets dashboard:
     ```toml
     GEMINI_API_KEY = "YOUR_API_KEY_HERE"
     ```

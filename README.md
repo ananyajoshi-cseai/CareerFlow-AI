@@ -58,14 +58,6 @@
 ```bash
 streamlit run app.py
 ```
-
-## 📈 Roadmap & Future Scope
-
-- [x] **v1.0 Launch**: Core scanner and visual analytics.
-- [ ] **Automated Course Recommendations**: Linking detected skill gaps directly to free learning resources on Coursera or YouTube.
-- [ ] **LinkedIn Profile Optimizer**: AI-driven suggestions for LinkedIn headlines and 'About' sections based on resume analysis.
-- [ ] **Multi-user Authentication**: Secure login systems to allow users to save and track their career progress over time.
-
 ---
 
 ## 🤝 Contributing

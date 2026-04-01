@@ -11,6 +11,25 @@
 **CareerFlow AI** is a professional-grade career optimization platform designed to bridge the gap between candidate profiles and industry requirements. By leveraging **Google Gemini 1.5 Flash**, it automates complex tasks like skill-gap analysis, resume scoring, and competitive offer comparison into a seamless, interactive experience on web.
 
 ---
+## 📸 Visual Tour
+
+| **AI Skill-Gap Analyzer** | **Visual Match Analytics** |
+| :--- | :--- |
+| <img src="assets/1.png" width="400"> | <img src="assets/2.png" width="400"> |
+| **Description:** Upload your resume to compare against specific job descriptions and identify technical gaps. | **Description:** Interactive Plotly radar charts visualizing skill distribution and a gauge meter for overall match scores. |
+
+| **Job Battle Arena** | **Application Analytics** |
+| :--- | :--- |
+| <img src="assets/3.png" width="400"> | <img src="assets/4.png" width="400"> |
+| **Description:** "Battle Mode" for side-by-side comparison of two different roles to optimize application strategy. | **Description:** Persistent tracking of scanned jobs, average match scores, and a bar chart of frequently missing skills. |
+
+#### 🛠️ AI-Powered Career Toolkit
+<p align="center">
+  <img src="assets/5.png" width="900">
+  <br>
+  <i><b>Description:</b> Leverages <b>Google Gemini 1.5 Flash</b> to generate tailored cover letters and tough, gap-specific interview questions.</i>
+</p>
+---
 
 ## ✨ Core Features
 

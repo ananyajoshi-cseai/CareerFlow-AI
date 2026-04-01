@@ -29,7 +29,6 @@
   <br>
   <i><b>Description:</b> Leverages <b>Google Gemini 1.5 Flash</b> to generate tailored cover letters and tough, gap-specific interview questions.</i>
 </p>
----
 
 ## ✨ Core Features
 

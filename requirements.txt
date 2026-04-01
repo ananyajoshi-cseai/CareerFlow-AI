@@ -1,5 +1,5 @@
 streamlit
-google-generative-ai
+google-generativeai
 pdfplumber
 pandas
 plotly
@@ -7,4 +7,4 @@ requests
 fpdf
 beautifulsoup4
 streamlit-lottie
-streamlit-option_menu
+streamlit-option-menu

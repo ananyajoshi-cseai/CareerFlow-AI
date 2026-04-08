@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 from streamlit_lottie import st_lottie
 from streamlit_option_menu import option_menu
 
-# --- PAGE CONFIGS ---
+# --- PAGE CONFIGURATIONS ---
 st.set_page_config(page_title="CareerFlow AI", layout="wide", page_icon="🧠")
 
 # --- STATE INITIALIZATION ---

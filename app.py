@@ -27,7 +27,7 @@ if 'company_name' not in st.session_state: st.session_state.company_name = ""
 if 'api_key' not in st.session_state: st.session_state.api_key = ""
 if 'cover_letter' not in st.session_state: st.session_state.cover_letter = ""
 
-# --- CONTRAST DARK THEME CSS ---
+# --- DARK THEME CSS ---
 st.markdown("""
 <style>
     /* 1. Main Backgrounds */

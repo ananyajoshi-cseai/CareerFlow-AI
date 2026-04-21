@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
 </p>
 
-**CareerFlow AI** is a professional-grade career optimization platform designed to bridge the gap between candidate profiles and industry requirements. By leveraging **Google Gemini 1.5 Flash**, it automates complex tasks like skill-gap analysis, resume scoring, and competitive offer comparison into a seamless, interactive experience on web.
+**CareerFlow AI** is a professional-grade career optimization platform designed to bridge the gap between candidate profiles and industry requirements. By leveraging **Google Gemini 1.5 Flash**, it automates complex tasks like skill-gap analysis, resume scoring, and competitive offer comparison into a seamless, interactive experience on the web.
 
 ---
 ## 📸 Visual Tour

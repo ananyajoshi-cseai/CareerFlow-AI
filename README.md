@@ -16,7 +16,7 @@
 | **AI Skill-Gap Analyzer** | **Visual Match Analytics** |
 | :--- | :--- |
 | <img src="assets/1.png" width="400"> | <img src="assets/2.png" width="400"> |
-| Upload your resume to compare against specific job descriptions and identify technical gaps. | Interactive Plotly radar charts visualizing skill distribution and a gauge meter for overall match scores. |
+| Upload your resume to compare against specific job descriptions to identify technical gaps. | Interactive Plotly radar charts visualizing skill distribution and a gauge meter for overall match scores. |
 
 | **Job Battle Arena** | **Application Analytics** |
 | :--- | :--- |

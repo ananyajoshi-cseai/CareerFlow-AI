@@ -98,6 +98,5 @@ Distributed under the MIT License. See `LICENCE` for more information.
 
 **Ananya Joshi**
 * B.Tech in Computer Science and Artificial Intelligence (CSE AI)
-* Indira Gandhi Delhi Technical University for Women (IGDTUW)
 
 ---

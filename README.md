@@ -80,7 +80,7 @@ streamlit run app.py
 
 ## 🤝 Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. 
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Steps to contribute:
 
 1. Fork the Project.
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).

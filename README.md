@@ -94,9 +94,13 @@ Contributions are what make the open-source community such an amazing place to l
 
 Distributed under the MIT License. See `LICENCE` for more information.
 
+
 ## 👤 Author
 
 **Ananya Joshi**
-* B.Tech in Computer Science and Artificial Intelligence (CSE AI)
+* *B.Tech in Computer Science and Artificial Intelligence (CSE AI)* 
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ananya-joshi-cseai)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF4B4B?style=for-the-badge&logo=google-chrome&logoColor=white)]((https://portfolio-ananya-joshi.vercel.app/))
 
 ---

@@ -198,7 +198,7 @@ def save_to_db(role, company, skills_dict, score):
     conn.commit()
     conn.close()
 
-# --- SIDEBAR (Updated for Deployment) ---
+# --- SIDEBAR ---
 with st.sidebar:
     st.markdown("# 🧠 CareerFlow AI")
     

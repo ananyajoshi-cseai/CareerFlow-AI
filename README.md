@@ -32,7 +32,7 @@
 
 ## ✨ Core Features
 
-* **🔍 AI Skill-Gap Scanner**: Deep analysis of Resumes vs. JDs to extract missing technical and soft skills with actionable feedback.
+* **🔍 AI Skill-Gap Scanner**: Deep analysis of Resumes vs. JDs to extract missing technical and soft skills with actionable feedback And Plotting it visually.
 * **⚔️ Job Battle Arena**: A data-driven side-by-side comparison tool that scores job offers based on long-term growth and relevance.
 * **📊 Visual Analytics**: High-impact **Radar (Spyder) charts** and match donut charts for instant visual assessment of your professional profile.
 * **📄 Automated PDF Generation**: Instantly creates tailored, professional cover letters ready for export based on your extracted skills.

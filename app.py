@@ -74,7 +74,7 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
-# --- THE AI ENGINE ---
+# --- AI ENGINE ---
 def get_gemini_response(prompt):
     if not st.session_state.api_key: return None
     genai.configure(api_key=st.session_state.api_key.strip())

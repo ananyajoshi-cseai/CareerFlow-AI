@@ -425,7 +425,7 @@ elif selected == "Battle Mode":
                 except json.JSONDecodeError:
                     st.error("⚠️ AI Analysis failed to format correctly. Here is the raw text:")
                     st.write(response_text)
-# === PAGE 3: ANALYTICS ===
+# === Page 3: ANALYTICS ===
 elif selected == "Analytics":
     st.title("📊 Market Intelligence")
     conn = sqlite3.connect('career_data.db')

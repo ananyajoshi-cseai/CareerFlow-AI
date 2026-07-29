@@ -21,7 +21,7 @@
 | **Job Battle Arena** | **Application Analytics** |
 | :--- | :--- |
 | <img src="assets/3.png" width="400"> | <img src="assets/4.png" width="400"> |
-| "Battle Mode" for side-by-side comparison of two different roles to optimize application strategy. | Persistent tracking of scanned jobs, average match scores, and a bar chart of frequently missing skills. |
+| "Battle Mode" for side-by-side comparison of two different roles to optimize application strategy. | Persistent tracking of scanned jobs, average match scores, and a bar chart of frequently missing skills |
 
 #### 🛠️ AI-Powered Career Toolkit
 <p align="center">

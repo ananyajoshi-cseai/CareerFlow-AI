@@ -1,4 +1,4 @@
-# 🧠 CareerFlow AI: Intelligent Career Toolkit
+# 🧠 CareerFlow AI: The Intelligent Career Toolkit
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.12-blue?logo=python" alt="Python">

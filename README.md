@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Framework-Streamlit-FF4B4B?logo=streamlit" alt="Streamlit">
   <img src="https://img.shields.io/badge/AI-Gemini_1.5_Flash-4285F4?logo=google-gemini" alt="Gemini">
   <img src="https://img.shields.io/badge/Architecture-End--to--End-brightgreen" alt="Architecture">
-  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+  <img src="https://img.shields.io/badge/License-MIT-lightgreen" alt="License">
 </p>
 
 **CareerFlow AI** is a professional-grade career optimization platform designed to bridge the gap between candidate profiles and industry requirements. By leveraging **Google Gemini 1.5 Flash**, it automates complex tasks like skill-gap analysis, resume scoring, and competitive offer comparison into a seamless, interactive experience!

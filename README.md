@@ -16,12 +16,12 @@
 | **AI Skill-Gap Analyzer** | **Visual Match Analytics** |
 | :--- | :--- |
 | <img src="assets/1.png" width="400"> | <img src="assets/2.png" width="400"> |
-| Upload your resume to compare against specific job descriptions to identify technical gaps | Interactive Plotly radar charts visualizing skill distribution and a gauge meter for overall match scores |
+| Upload your resume to compare against specific job descriptions to identify technical gaps. | Interactive Plotly radar charts visualizing skill distribution and a gauge meter for overall match scores. |
 
 | **Job Battle Arena** | **Application Analytics** |
 | :--- | :--- |
 | <img src="assets/3.png" width="400"> | <img src="assets/4.png" width="400"> |
-| "Battle Mode" for side-by-side comparison of two different roles to optimize application strategy. | Persistent tracking of scanned jobs, average match scores, and a bar chart of frequently missing skills |
+| "Battle Mode" for side-by-side comparison of two different roles to optimize application strategy. | Persistent tracking of scanned jobs, average match scores, and a bar chart of frequently missing skills. |
 
 #### 🛠️ AI-Powered Career Toolkit
 <p align="center">

@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Python-3.12-blue?logo=python" alt="Python">
   <img src="https://img.shields.io/badge/Framework-Streamlit-FF4B4B?logo=streamlit" alt="Streamlit">
   <img src="https://img.shields.io/badge/AI-Gemini_1.5_Flash-4285F4?logo=google-gemini" alt="Gemini">
-  <img src="https://img.shields.io/badge/Architecture-End--to--End-brightgreen" alt="Architecture">
+  <img src="https://img.shields.io/badge/Architecture-End--to--End-brightred" alt="Architecture">
   <img src="https://img.shields.io/badge/License-MIT-lightgreen" alt="License">
 </p>
 

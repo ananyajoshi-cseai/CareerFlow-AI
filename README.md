@@ -45,7 +45,7 @@
 * **Frontend & UI**: Streamlit with custom **Glassmorphism CSS** for a premium dark-mode aesthetic
 * **Intelligence Layer**: Google Generative AI (**Gemini 1.5 Flash**) for advanced NLP and reasoning.
 * **Database**: **SQLite3** for persistent tracking and history of job application analytics.
-* **Data Visualization**: **Plotly** for interactive charts and **Streamlit Lottie** for modern UI animations.
+* **Data Visualization**: **Plotly** for interactive charts and **Streamlit Lottie** for modern UI animations
 * **Document Processing**: PDFPlumber and FPDF for document parsing and generation.
 
 ---

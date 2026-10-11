@@ -74,6 +74,7 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
+
 # --- AI ENGINE ---
 def get_gemini_response(prompt):
     if not st.session_state.api_key: return None
@@ -210,7 +211,6 @@ with st.sidebar:
         st.session_state.api_key = st.text_input("Gemini API Key", type="password")
         if st.session_state.api_key: st.success("✅ AI Connected")
     
-    # THIS LINE MUST BE HERE - BEFORE the if/elif blocks
     selected = option_menu(
         menu_title=None,
         options=["Scanner", "Battle Mode", "Analytics", "Tools"],
